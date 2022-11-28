@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FITNESS APP</title>
+</head>
+<Link rel="stylesheet" href="CSS/style.css">
+<style>
+    body {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background-size: 1550px;
+        background-image: url('img/new.jpg');
+    }
+
+    .left {
+
+        /*border: 2px solid white;*/
+        display: inline-block;
+        position: absolute;
+        left: 34px;
+        top: 20px;
+
+
+    }
+
+    .mid {
+       /* border: 2px solid rgb(15, 195, 30);*/
+        display: block;
+        width: 38%;
+        margin: 20px auto;
+        top: 20px;
+
+
+
+    }
+
+    .right {
+       /* border: 2px solid rgb(223, 19, 19);*/
+        display: inline-block;
+        position: absolute;
+        right: 34px;
+        top: 20px;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+
+    }
+
+   
+    .navbar li a:active {
+        text-decoration: underline;
+        color: rgb(228, 48, 48);
+
+    }
+    .navbar li a:hover{
+        color:brown;
+
+    }
+
+    .left img {
+        width: 70px;
+    }
+
+    .btn {
+        margin: 0px;
+        background: rgb(237, 155, 155);
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        font-size: 20px;
+        cursor: pointer;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .btn:hover {
+        background-color: firebrick;
+    }
+
+    .container {
+       /*border: 2px solid white;*/
+        margin: 106px 80px;
+        padding: 60px 75px;
+        border-radius: 28px;
+        width: 33%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+
+    }
+
+    .container h1 {
+        text-transform: uppercase;
+        color: black;
+        text-align: left;
+        text-decoration: underline;
+    }
+
+    .form-group input {
+        text-align: left;
+        padding:1px 1px;
+        
+       /* display: block;
+        width: 350px;
+        padding: 6px;
+        border-radius: 5px;
+       /* border: 2px solid black;*/
+        font-size: 25px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin: 5px auto;
+        background-color:rgb(241, 248, 247);
+        
+        
+    }
+
+    #k {
+        /*display:block;
+        margin:10px auto;
+        width:95px;*/
+        text-align:left;
+        
+
+
+    }
+   
+</style>
+
+<body>
+
+    <header class="header">
+
+        <div class="left">
+            <img src="img/th.jpg" alt=" logo">
+            <div> Let's YOG</div>
+
+
+        </div>
+
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">HOME</a></li>
+                <li> <a href="#">ABOUT </a></li>
+                <li><a href="#">SERVICES </a></li>
+                <li><a href="#" id="k">CONTACT </a></li>
+                <li><a href="#" id="k">GALLERY </a></li>
+                
+            </ul>
+
+        </div>
+
+        <div class="right">
+            <button class="btn" id=""> Call us </button>
+            <butto class="btn" id=""> Email us</butto>
+        </div>
+    </header>
+    <div class="container">
+        <h1> Join best yoga center in ranchi now</h1>
+        <form action="willdolater" method=post>
+            <div class="form-group">
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter Your Name">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter Your Age">
+                </div>
+
+                <div class="form-group">
+                    <input type="email" name="" placeholder="Enter Your Email">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter Your Gender">
+                </div>
+                <div class="form-group">
+                    <input type="number" name="" placeholder="Enter your mobile number">
+                </div>
+                <div class="form-group">
+                    <input type="password" name="" placeholder=" Enter your password">
+                </div>
+                <button class="btn" id="k">submit</button>
+            </div>
+            </form>
+    </div>
+
+
+
+</body>
+
+
+</html>
