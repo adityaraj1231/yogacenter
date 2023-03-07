@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FITNESS APP</title>
+    <title>YOGA Center </title>
+    <link rel="stylesheet" href="CSS/main.css">
 </head>
-<Link rel="stylesheet" href="CSS/style.css">
+
 <style>
     body {
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -14,7 +16,7 @@
         margin: 0px;
         padding: 0px;
         background-size: 1550px;
-        background-image: url('img/new.jpg');
+        background-image: url('img/nnnn.jpg');
     }
 
     .left {
@@ -29,18 +31,20 @@
     }
 
     .mid {
-       /* border: 2px solid rgb(15, 195, 30);*/
+        /* border: 2px solid rgb(15, 195, 30);*/
         display: block;
         width: 38%;
         margin: 20px auto;
         top: 20px;
+        border: solid 2px black;
+        background-color: rgb(246, 75, 95);
 
 
 
     }
 
     .right {
-       /* border: 2px solid rgb(223, 19, 19);*/
+        /* border: 2px solid rgb(223, 19, 19);*/
         display: inline-block;
         position: absolute;
         right: 34px;
@@ -63,14 +67,15 @@
 
     }
 
-   
+
     .navbar li a:active {
         text-decoration: underline;
         color: rgb(228, 48, 48);
 
     }
-    .navbar li a:hover{
-        color:brown;
+
+    .navbar li a:hover {
+        color: brown;
 
     }
 
@@ -93,16 +98,8 @@
         background-color: firebrick;
     }
 
-    .container {
-       /*border: 2px solid white;*/
-        margin: 106px 80px;
-        padding: 60px 75px;
-        border-radius: 28px;
-        width: 33%;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        
 
-    }
+
 
     .container h1 {
         text-transform: uppercase;
@@ -111,33 +108,34 @@
         text-decoration: underline;
     }
 
-    .form-group input {
-        text-align: left;
-        padding:1px 1px;
-        
-       /* display: block;
-        width: 350px;
-        padding: 6px;
-        border-radius: 5px;
-       /* border: 2px solid black;*/
-        font-size: 25px;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        margin: 5px auto;
-        background-color:rgb(241, 248, 247);
-        
-        
-    }
+
+
+
+
 
     #k {
         /*display:block;
         margin:10px auto;
         width:95px;*/
-        text-align:left;
-        
+        text-align: left;
+
 
 
     }
-   
+
+    #x2 {
+        color: black;
+        margin: 20px 20px;
+    }
+
+    .pic {
+        height: 120px;
+        width: 150px;
+        margin-top: 100px;
+        padding-left: 75px;
+        position: relative;
+
+    }
 </style>
 
 <body>
@@ -153,52 +151,287 @@
 
         <div class="mid">
             <ul class="navbar">
-                <li><a href="#">HOME</a></li>
-                <li> <a href="#">ABOUT </a></li>
-                <li><a href="#">SERVICES </a></li>
-                <li><a href="#" id="k">CONTACT </a></li>
-                <li><a href="#" id="k">GALLERY </a></li>
-                
+                <li><a href="Gallery.html">GALLERY</a></li>
+                <li> <a href="About.html">ABOUT </a></li>
+                <li><a href="services.html">SERVICES </a></li>
+                <li><a href="contact.html" id="k">CONTACT </a></li>
+
+
             </ul>
 
         </div>
 
         <div class="right">
-            <button class="btn" id=""> Call us </button>
-            <butto class="btn" id=""> Email us</butto>
+            <button onclick ="button()"  class="btn" id=" b1"> Sign Up
+
+
+            </button>
+            <button onclick="Button1()" class="btn" id="b2"> Login</button>
+
+           
         </div>
     </header>
-    <div class="container">
-        <h1> Join best yoga center in ranchi now</h1>
-        <form action="willdolater" method=post>
-            <div class="form-group">
-                <div class="form-group">
-                    <input type="text" name="" placeholder="Enter Your Name">
-                </div>
-                <div class="form-group">
-                    <input type="text" name="" placeholder="Enter Your Age">
-                </div>
+    <section>
+        <img class="mySlides" src="img/a5.jpg" style="width:750px;margin:auto;height:500px">
+        <img class="mySlides" src="img/banner.jpg" style="width:750px;margin:auto;height:500px">
+        <img class="mySlides" src="img/xyz.jpg" style="width:750px;margin:auto;height:500px">
+        <img class="mySlides" src="img/y.jpg" style="width:750px;margin:auto;height:500px">
+        <img class="mySlides" src="img/catcow1.jpg" style="width:750px;margin:auto;height:500px">
+        <img class="mySlides" src="img/xyz.jpg" style="width:750px;margin:auto;height:500px">
+        <img class="mySlides" src="img/new.jpg" style="width:750px;margin:auto;height:500px">
+        <img class="mySlides" src="img/picyoga.jpg" style="width:750px;margin:auto;height:500px">
+        <img class="mySlides" src="img/about-1.jpg" style="width:750px;margin:auto;height:500px">
+        <img class="mySlides" src="img/tre3.jpg" style="width:750px;margin:auto;height:500px">
+        <img class="mySlides" src="img/samadhi.jpg" style="width:750px;margin:auto;height:500px">
+        <img class="mySlides" src="img/s5.jpg" style="width:750px;margin:auto;height:500px">
+        <img class="mySlides" src="img/nnnn.jpg" style="width:750px;margin:auto;height:500px">
+        <img class="mySlides" src="img/y.jpg" style="width:750px;margin:auto;height:500px">
 
-                <div class="form-group">
-                    <input type="email" name="" placeholder="Enter Your Email">
+
+
+
+      </section>
+      
+      <script>
+      // Automatic Slideshow - change image every 3 seconds
+      var myIndex = 0;
+      carousel();
+      
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}
+        x[myIndex-1].style.display = "block";
+        setTimeout(carousel, 3000);
+      }
+     
+    
+  function button()
+{
+    document.getElementById("reg2").style="position:absolute;top:80px;right:0px;display:none;background-color:grey;margin-right:20px"
+    document.getElementById("reg").style="position:absolute;top:80px;right:0px;display:block;margin-right:20px;background-color:grey"  
+   
+}
+
+
+function Button1(){
+
+document.getElementById("reg").style="position:absolute;top:80px;right:0px;display:none;margin-right:20px;background-color:grey"
+document.getElementById("reg2").style="position:absolute;top:80px;right:0px;display:block;background-color:grey;margin-right:20px"
+
+}
+
+
+
+    </Script>
+    
+
+
+
+    <detail class="div">
+        <h2> What is Yoga</h2>
+        <p id="k1">
+            Definition - What does Yoga mean?
+
+            Yoga is a physical, mental and spiritual practice that originated in ancient India. First codified by the
+            sage Patanjali in his Yoga Sutras around 400 C.E, the practice was in fact handed down from teacher to
+            student long before this text arose. Traditionally, this was a one-to-one transmission, but since yoga
+            became popular in the West in the 20th century, group classes have become the norm.
+
+            The word yoga is derived from the Sanskrit root yuj, meaning “to yoke,” or “to unite”. The practice aims to
+            create union between body, mind and spirit, as well as between the individual self and universal
+            consciousness. Such a union tends to neutralize ego-driven thoughts and behaviours, creating a sense of
+            spiritual awakening.
+
+            Yoga has been practiced for thousands of years, and whilst many different interpretations and styles have
+            been developed, most tend to agree that the ultimate goal of yoga is to achieve liberation from suffering.
+            Although each school or tradition of yoga has its own emphasis and practices, most focus on bringing
+            together body, mind and breath as a means of altering energy or shifting consciousness.
+
+
+            Modern yoga is most commonly associated with the physical practice of asana, a series of postures often
+            weaved together in styles such as Vinyasa Flow or Ashtanga. Asana practice is generally intended to build
+            strength and stamina, to improve flexibility, coordination and balance, and to relax the body. However, this
+            provides only one small aspect of the tradition of yoga as a whole.
+
+            Patanjali’s Yoga Sutras provide the traditional foundation of yoga, in which he outlines an eightfold path
+            of the practice. Known as the ‘Eight Limbs of Yoga,’ this path offers a guide to individuals who are
+            dedicated to creating a union between body, mind and spirit.
+
+            Each of the Eight Limbs offers a means of living with more integrity, self-discipline, respect for nature
+            and connection with the spiritual aspects of life. These eight practices are intended to be carried out in a
+            holistic and integrative manner:
+        <ul type="number" id="ul1">
+            <li>Yamas - Five universal, ethical and moral observances to live by (nonviolence, truthfulness,
+                non-stealing, continence and non-covetousness)</li>
+            <li> Niyamas - Five spiritual and self-discipline observances (cleanliness, contentment, spiritual
+                austerities, study of scriptures and surrender to God)</li>
+            <li>Asana - physical posture, originally intended only for seated meditation, but more recently adapted to
+                encompass all physical yoga practices</li>
+            <li>Pranayama - breathing exercises to control the flow of prana (vital life force)</li>
+            <li>Pratyahara - Withdrawal of the senses</li>
+            <li>Dharana - Single pointed concentration</li>
+            <li>Dhyana - Meditation</li>
+            <li>Samadhi - Liberation or blissful union with the Divine</li>
+
+        </ul>
+        <img src="img/samadhi.jpg" alt=" The Eight Limbs of yoga" style="height:200px" id="m1">
+
+        </p>
+    </detail>
+
+    <div class="benifts" style="color:black ;background:rgb(217, 206, 206)">
+        <h2 id="d">Benifits of yoga:-
+        </h2>
+        <ul type="number">
+            <h2> VRIKSHASANA (Tree pose)</h2>
+
+            <li> Yoga improves strength, balance and flexibility.
+                Slow movements and deep breathing increase blood flow and warm up muscles, while holding a pose can
+                build strength.
+
+                Try it: Tree Pose
+                Balance on one foot, while holding the other foot to your calf or above the knee (but never on the knee)
+                at a right angle. Try to focus on one spot in front of you, while you balance for one minute.
+                <img src="img/blog-1.jpg" alt="" style="padding:25px 25px" id="tree">
+                <img src="img/tree1.jpg" alt="" style="padding:25px 25px" id="tree1">
+                <img src="img/tre3.jpg" alt="" style="padding:25px 25px" id="tree3">
+
+
+                <div class="x3">
+                    <h2 id="x3">Health Benifits</h2>
+                    
                 </div>
-                <div class="form-group">
-                    <input type="text" name="" placeholder="Enter Your Gender">
+                <p>
+                    improves strength, balance and flexibility
+
+                    Slow movements and deep breathing increase blood flow and warm up muscles, while holding a pose
+                    can build strength.
+                </p>
+            </li>
+
+            <h2>2. Surya Namskar</h2>
+
+            <li> is a practice
+                in yoga as exercise  a flow sequence of some twelve gracefully linked asanas.
+                In the Vedas, everything in the universe has a male and female side. The female side of the sun is
+                nourishing and life-giving and in Hindu mythology depicted as Gayatri. The male side of the sun is
+                invigorating, energy giving and activating, and in Hindu mythology depicted as Surya.
+                Gayatri can be likened to yin energy and Surya to yang energy. In Sun Salutations our purpose is to
+                warm-up and invigorate the body for the following asana practice.
+                Opposite to common belief, Surya Namaskara Kriya is practised facing away from the rising sun. The
+                purpose is to receive the stimulating and heating sun on your spine, as you warm up the body with Sun
+                Salutations, one would greet the rising sun with a deep bow and prayer and then turn away
+                from the rising sun to receive energy on the backside of the body.
+                As Surya gave life to the world through his powerful energy heat energy energizes the body through the
+                practice of Surya Namaskar.
+
+                <img src="img/s1.jpg" alt="" style="padding:25px 25px" id="s1">
+                <img src="img/s2.jpg" alt="" style="padding:25px 25px" id="s1">
+                <img src="img/s3.jpg" alt="" style="padding:25px 25px" id="s1">
+                <img src="img/s4.jpg" alt="" style="padding:25px 25px" id="s1">
+
+
+
+                <div class="x3">
+                    <h2 id="x3">Health Benifits</h2>
+                    <p id="x4">
+                        <li>  Helps with weight loss. </li>
+                        <li>  Strengthens muscles and joints.. </li>
+                        <li>  Ensures a better functioning digestive system.. </li>
+                        <li> Helps combat insomnia. </li>
+                        <li>  Spinal cord and abdominal muscles are stretched. </li>
+                        <li>  Ensures regular menstrual cycle. </li>
+                       
+                    </p>
                 </div>
-                <div class="form-group">
-                    <input type="number" name="" placeholder="Enter your mobile number">
-                </div>
-                <div class="form-group">
-                    <input type="password" name="" placeholder=" Enter your password">
-                </div>
-                <button class="btn" id="k">submit</button>
-            </div>
-            </form>
+            </li>
+
+           
+
+        </ul>
     </div>
+  <div class="new">
+    <h1 id="b">Best Yoga Center</h1>
+    <h1 id="b">Lets Yog center of Yoga</h1>
+    <h2 id="b">Address :- Swami Sradhanad Ashram,lake road ,835227</h2>
+    <h3 id="b">phone number-8434636191</h3>
+
+  </div>
+
+<div id="reg" style="position:absolute;top:80px;right:0px;display:none">
+<table>
+<form action="save.php">
+    <tr>
+<td>Name</td>
+<td><input type="text" required></td>
+</tr>
+<tr>
+<td>Password</td>
+<td><input type="text" required ></td>
+</tr>
+<tr>
+<td>Gender</td>
+<td><input type="radio" name="g">M<input type="radio" name="g">F</td>
+</tr>
+<tr>
+<td>Mobile No</td>
+<td><input type="text" required></td>
+</tr>
+<tr>
+<td>Email</td>
+<td>
+<input type="text" required>
+</td>
+</tr>
+<tr>
+<td>Age</td>
+<td><select>
+<option>10 to 20</option>
+<option>21 to 30</option>
+<option>31 to 40</option>
+<option>41 to 50</option>
+<option>Above 50</option>
+
+</select></td>
+</tr>
+<tr>
+<td><input type="submit"></td>
+<td><input type="reset"></td>
+</tr>
+</form>
+
+</table>
+
+</div>
+
+
+<div id="reg2" style="position:absolute;top:80px;right:20px;display:none " >
+ <table>
+<form>
+<tr>
+<td>
+<input type="email"placeholder="Email "required>
+</td>
+</tr>
+<tr>
+<td>
+<input type="password" placeholder="password"required></td>
+</tr>
+<td><input type="submit"></td>
+<td><input type="reset"></td>
+</table>
+    
+</div>
+
+
 
 
 
 </body>
 
-
-</html>
+</html

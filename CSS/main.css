@@ -1,0 +1,65 @@
+#h2{
+     text-align: center;
+     font-size: 30px;
+     text-transform: uppercase;
+     text-decoration: underline;
+      color: white;
+}
+#h2:hover{
+    color: brown;
+}
+
+.div{
+    text-align: center;
+    color: black;
+    padding-bottom:0px;
+    margin-top: 150px;
+    width:50px;
+    padding-left: 20px;
+}
+#ul1{
+    text-align: left;
+}
+#d{
+    text-decoration: underline;
+    padding-left: 20px;
+}
+#m1{
+    padding-left: 30px;
+}
+#tree{
+    text-align: center;
+    width:400px;
+
+}
+.x3{
+    padding-left: 95px;
+    text-align: left;
+    text-decoration: underline;
+    color: brown;
+
+}
+#tree1{
+    width:500px;
+    height:400px;
+}
+#tree3{
+
+    width:300px;
+    height:400px;
+
+
+}
+#s1{
+     width:300px;
+     height:300px;
+}
+
+   .new{
+    background-color: coral;
+   }
+   #b{
+    text-align: center;
+    color: black;
+    
+   }

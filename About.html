@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>About Us Page</h1>
+  <p>
+    Lets yog  Centre of Yoga, Ranchi was set up on 1 April 2004. Its main purpose is to spread the teaching and practice of an authentic and ancient system of yoga, thereby promoting health, well being, freedom from stress and more balanced and visionary individual.
+
+​We have daily yoga classes, special courses, annual programmes and retreats, yoga teacher training courses, advanced teacher training courses, yoga during pregnancy, and yoga classes for children and teenagers.
+
+​The Centre has also taught or continues to teach classes in various organizations. Some of these include Marks & Spencer, SMS, KnS Partners, HSBC, Dupont, Ranbaxy, Coca Cola, Pepsi, GSK, Evalueserve, Hero Honda, Sapient, American Express, Star TV, Hughes Systique, MPHRX, and the British High Commission.
+
+Since its inception, the Centre has taught over 25000 yoga classes at the Centre, and another 15000 classes involving individuals, groups and organizations, outside the Centre. More than 50,000 people have taken onsite classes with us in the past 18 years, and over 150,000 people online, from all over the world, since March 2020. Currently, over 3000 new people come to the Centre every year, to try classes, and make yoga a way of life. You can be one of them.
+
+The Centre receives over 1000 people every week in 100 open classes.
+
+​All the teachers at the Centre have taken an international teachers’ training course (recognized by Yoga Alliance).
+
+​These and other courses and workshops were created over 50 years ago in the United States,Canada, Europe, South East Asia and India. Each teacher goes through the same rigorous Gurukula system of training – learning by repetitive practice under the supervision of senior, more experienced teachers. They learn to have sensitivity, respect and a deep understanding of the human condition.
+
+​The yoga class and yoga system which we teach, is one of the most popular forms of yoga in the world today, easy to begin and to understand and to practice.
+  </p>
+ 
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="img/adi.jfif" alt="Aditya" style="width:75%">
+      <div class="container">
+        <h2>Aditya Choudhary</h2>
+        <p class="title">CEO & Founder</p>
+        <p>Lets Yog center of yoga</p>
+        <p>adityahitmanfan45@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="img/ruhi tyagi.jpg" alt="Ruhi" style="width:100%">
+      <div class="container">
+        <h2>Ruhi Tyagi</h2>
+        <p class="title">yoga Trainer</p>
+        <p>Gold Medalist Yogi</p>
+        <p> lets Create Magic </p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="img/rodrigue joe.jpg" alt="Meera Rajput" style="width:100%">
+      <div class="container">
+        <h2>Meera Singh Rajput</h2>
+        <p class="title">Yoga Trainer</p>
+        <p>Born To practice Yoga.</p>
+        <p>MeeraC12@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
